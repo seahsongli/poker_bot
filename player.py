@@ -26,12 +26,12 @@ class Player:
         self.hand = []
 
 
-player1 = Player("Jack", 1000)
-player1.receive_cards(["Hearts 1", "Spades 2"])
-print(player1)
-player1.bet(100)
-print("Amount of chips left after betting: ", player1.stack)
-player1.raise_bet(100, 300)
-print("Amount of chips left after raising bet: ", player1.stack)
-player1.fold()
-print("Player's hand after folding: ", player1.hand)
+# player1 = Player("Jack", 1000)
+# player1.receive_cards(["Hearts 1", "Spades 2"])
+# print(player1)
+# player1.bet(100)
+# print("Amount of chips left after betting: ", player1.stack)
+# player1.raise_bet(100, 300)
+# print("Amount of chips left after raising bet: ", player1.stack)
+# player1.fold()
+# print("Player's hand after folding: ", player1.hand)
